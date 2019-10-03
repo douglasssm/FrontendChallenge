@@ -1,0 +1,105 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(../fonts/SF-Pro-Display-Regular.otf);
+  font-family: SFProDisplay;
+}
+
+* {
+  font-family: SFProDisplay;
+}
+
+p1 {
+  margin-left: 100px;
+}
+
+.buttonhome, .buttonwork, .buttonfavorites {
+  background-color: darkblue;
+  color: white;
+  margin: 15px 0 15px 15px;
+  padding: 5px 0 5px 0;
+  width: 100px;
+  border: none;
+  border-radius: 4px;
+}
+
+p1 {
+  font-size: 20px;
+}
+
+.buses {
+  color: white;
+  font-family: montserrat;
+  width: 375px;
+  margin-top: 1%;
+}
+
+.searchbar {
+  margin-left: .5%;
+}
+
+.containerlight {
+  background-color: green;
+}
+.containerdark {
+  background-color: darkgreen;
+}
+
+.OutofServiceLight {
+  background-color: red;
+}
+
+.OutofServiceDark {
+  background-color: darkred;
+}
+
+.Reroute {
+  background-color: slategray;
+}
+
+.column1, .column2 {
+  display: inline-block;
+}
+
+.column2 {
+  float: right;
+  margin-top: 3%;
+  margin-right: 10%;
+  font-size: 28px;
+}
+
+.containerlight, .containerdark, .Reroute, .OutofServiceDark, .OutofServiceLight {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: SFProDisplay;
+  line-height: 22px;
+}
+
+
+.bus_number {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+.bus_line {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.busstop {
+  font-size: 16px;
+}
+
+.Status {
+  background-color: darkblue;
+  width: 375;
+  padding: 1%;
+  font-family: SFProDisplay;
+}
+
+.Resumes {
+  font-size: 20px;
+}
